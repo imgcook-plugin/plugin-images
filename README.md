@@ -1,1 +1,1 @@
-## @imgcook/cli-loader-images
+## @imgcook/plugin-images
