@@ -1,3 +1,9 @@
+/**
+ * plugin-images
+ * 
+ * Authors: gindis
+ */
+
 const fs = require('fs');
 const { unique, downloadImg } = require('@imgcook/cli-utils');
 const UPLOAD = require('./lib/upload');
