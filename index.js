@@ -1,5 +1,5 @@
 /**
- * plugin-images
+ * Plugin Name: plugin-images
  * 
  * Authors: gindis
  */
@@ -79,7 +79,7 @@ const loader = async (option) => {
             moduleData &&
             moduleData.dsl === 'react-taobao-standard'
           ) {
-            // 如果在 react 标准下引用本地路径图片，使用 require 引用
+            // If the local path image is referenced under the react standard, use the require reference
             const regex = new RegExp(`"${imgArr[idx]}"`, 'g');
             fileValue = fileValue.replace(
               regex,
