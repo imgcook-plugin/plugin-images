@@ -6,6 +6,7 @@
 
 const fs = require('fs');
 const { unique, downloadImg } = require('@imgcook/cli-utils');
+const chalk = require('chalk');
 const UPLOAD = require('./lib/upload');
 const upload = new UPLOAD();
 
