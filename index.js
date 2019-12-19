@@ -30,7 +30,8 @@ const loader = async (option) => {
   let imgArr = [];
   let { data } = option;
   const { filePath, config } = option;
-  const panelDisplay = data.code.panelDisplay;
+  if (!data.code) return null;
+  const panelDisplay = data.code.panelDisplay || [];
   const moduleData = data.moduleData;
   let index = 0;
   for (const item of panelDisplay) {
