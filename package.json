@@ -1,6 +1,6 @@
 {
   "name": "@imgcook/plugin-images",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -16,7 +16,7 @@
   "author": "gindis",
   "license": "ISC",
   "dependencies": {
-    "@imgcook/cli-utils": "^0.1.2",
+    "@imgcook/cli-utils": "^0.1.6",
     "chalk": "^3.0.0",
     "fs-extra": "^7.0.1",
     "request": "^2.88.0"
@@ -33,5 +33,5 @@
     "registry": "http://registry.npmjs.org/",
     "access": "public"
   },
-  "gitHead": "275af03e761071f692e34e83117247a472b13122"
+  "gitHead": "27bbc51c6df7d11fa6588e33c839dd29f50b7763"
 }

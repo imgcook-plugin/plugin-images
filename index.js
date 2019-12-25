@@ -31,6 +31,9 @@ const loader = async (option) => {
   let { data } = option;
   const { filePath, config } = option;
   if (!data.code) return null;
+  if (!fs.existsSync(filePath)) {
+    fs.mkdirSync(filePath);
+  }
   const panelDisplay = data.code.panelDisplay || [];
   const moduleData = data.moduleData;
   let index = 0;
