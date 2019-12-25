@@ -69,7 +69,7 @@ const loader = async (option) => {
         if (!curImgObj.imgPath) {
           await downloadImg(imgArr[idx], imgPathItem);
           let newImgUrl = '';
-          if (option.config && option.config.uploadUrl !== '') {
+          if (option.config && option.config.uploadUrl && option.config.uploadUrl !== 'undefined') {
             const udata = await uploadData(
               imgPathItem,
               `imgcook-cli/${temporaryImages}/`,
@@ -96,7 +96,7 @@ const loader = async (option) => {
             imgPath: `./images/${imgName}`
           });
         } else {
-          if (option.config && option.config.uploadUrl !== '') {
+          if (option.config && option.config.uploadUrl && option.config.uploadUrl !== 'undefined') {
             fileValue = fileValue.replace(reg, curImgObj.newImgUrl);
           } else {
             fileValue = fileValue.replace(reg, curImgObj.imgPath);
