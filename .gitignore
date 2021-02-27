@@ -4,3 +4,4 @@ example
 .travis.yml
 *.swp
 package-lock.json
+demo
