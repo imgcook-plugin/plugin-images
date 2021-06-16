@@ -26,9 +26,9 @@
     "url": "git+git@github.com:imgcook-plugin/plugin-images.git"
   },
   "bugs": {
-    "url": "https://github.com/imgcook/imgcook-cli/issues"
+    "url": "https://github.com/imgcook-plugin/plugin-images/issues"
   },
-  "homepage": "https://github.com/imgcook/imgcook-cli#readme",
+  "homepage": "https://github.com/imgcook-plugin/plugin-images#readme",
   "publishConfig": {
     "registry": "http://registry.npmjs.org/",
     "access": "public"
